@@ -10,7 +10,7 @@ import {
 import NextLink from "next/link";
 
 const NavBar = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
+
   const bgColor = useColorModeValue("white", "gray.800");
   const color = useColorModeValue("gray.800", "white");
 
@@ -26,7 +26,7 @@ const NavBar = () => {
     >
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Flex alignItems="center">
-          <NextLink href="/" passHref>
+          <NextLink href="/home" passHref>
             <Link fontSize="lg" fontWeight="bold">
               SPEAK TO AI
             </Link>

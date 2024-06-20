@@ -1,19 +1,17 @@
-"use client";
+// "use client";
 
-import Home from "@/pages/home";
-import Link from "next/link";
+// import Home from "@/app/home";
+// import Link from "next/link";
 
-const UnauthenticatedRoute = ({ children }) => {
-  return (
-    <div>
-      <nav>
-        <Link href="/home">
-          <Home />
-        </Link>
-      </nav>
-      {children}
-    </div>
-  );
-};
+// const UnauthenticatedRoute = ({ children }) => {
+//   return (
+//     <div>
+//       <nav>
+//         <Link href="/home">Home</Link>
+//       </nav>
+//       {children}
+//     </div>
+//   );
+// };
 
-export default UnauthenticatedRoute;
+// export default UnauthenticatedRoute;
