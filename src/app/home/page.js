@@ -236,8 +236,8 @@ const Home = () => {
               Language and Customization
             </Text>
             <Text fontSize={16} color="#5d5e62">
-              Communicate in any language. Customize your AI's tone, style, and
-              complexity to match your unique voice.
+              Communicate in any language. Customize your AI&apos;s tone, style,
+              and complexity to match your unique voice.
             </Text>
           </Box>
           <Box
