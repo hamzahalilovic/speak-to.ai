@@ -14,6 +14,8 @@ import {
 import SignupFormBackground from "../../assets/signup-form-bg.png";
 
 function SignupForm() {
+  const formAction = `https://getlaunchlist.com/s/${process.env.NEXT_PUBLIC_GETLAUNCHLIST_FORM_KEY}`;
+
   return (
     <Box
       backgroundImage={`url(${SignupFormBackground.src})`}
@@ -37,7 +39,7 @@ function SignupForm() {
       </Text>
       <form
         className="launchlist-form"
-        action="https://getlaunchlist.com/s/5lelnc"
+        action={formAction}
         method="POST"
         style={{ width: "100%" }}
       >
