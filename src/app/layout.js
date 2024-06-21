@@ -13,6 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script src="https://getlaunchlist.com/js/widget-diy.js" defer></script>
+
       <body className={inter.className}>
         <ChakraProvider>
           <AuthProvider>{children}</AuthProvider>
