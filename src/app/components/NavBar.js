@@ -26,7 +26,7 @@ const NavBar = () => {
     >
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Flex alignItems="center">
-          <NextLink href="/home" passHref>
+          <NextLink href="/" passHref>
             <Link fontSize="lg" fontWeight="bold">
               SPEAK TO AI
             </Link>

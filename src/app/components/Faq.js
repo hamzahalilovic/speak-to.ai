@@ -39,7 +39,6 @@ const Faq = () => {
         FAQs
       </Text>
       <Flex
-        width={"100%"}
         alignItems="flex-start"
         justifyContent="center"
         flexDirection={{ base: "column", md: "row" }}
@@ -47,12 +46,19 @@ const Faq = () => {
       >
         <Box width={{ base: "100%", md: "50%" }}>
           <Accordion allowToggle allowMultiple>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   Can I use speak-to.ai with any type of presentation?
@@ -68,12 +74,19 @@ const Faq = () => {
                 integration.
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   ​How does speak-to.ai ensure privacy and data security?
@@ -89,12 +102,19 @@ const Faq = () => {
                 integration.
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   What languages does the AI support?
@@ -110,12 +130,19 @@ const Faq = () => {
                 integration.
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   Can I integrate multimedia content into my AI’s responses?
@@ -136,12 +163,19 @@ const Faq = () => {
 
         <Box width={{ base: "100%", md: "50%" }}>
           <Accordion allowToggle allowMultiple>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   What happens after the free trial period ends?
@@ -157,12 +191,19 @@ const Faq = () => {
                 integration.
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   Can I update my AI twin after it goes live?
@@ -178,12 +219,19 @@ const Faq = () => {
                 integration.
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   How are audience interactions with my AI twin reported?
@@ -199,12 +247,19 @@ const Faq = () => {
                 integration.
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem padding="14px 35px 14px 10px" border="none">
+            <AccordionItem
+              padding={{
+                base: "14px 10px 14px 10px",
+                md: "14px 35px 14px 10px",
+              }}
+              border="none"
+            >
               <AccordionButton
                 color={"#2a2a2a"}
                 bg="#f6f6f6"
                 _expanded={{ bg: "#d8aaf6", color: "#2a2a2a" }}
                 _hover={{ bg: "#d8aaf6", color: "#2a2a2a" }}
+                justifyContent="space-between"
               >
                 <Text textAlign={"left"} fontSize={18} fontWeight={"bold"}>
                   Is there a limit to the number of AI twins I can create?
